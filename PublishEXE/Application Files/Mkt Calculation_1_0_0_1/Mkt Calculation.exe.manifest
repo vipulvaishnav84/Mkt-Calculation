@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Mkt Calculation.exe" version="1.0.0.1" publicKeyToken="68e22cd417fee589" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Mkt Calculation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Mkt Calculation.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mkt Calculation.exe" size="45600">
+      <assemblyIdentity name="Mkt Calculation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5qXwW1UUpiiwK+6X1JShOOE6NwdnwrjNMJHf3elZl4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Mkt Calculation.exe.config" size="232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0a2WumEwVqDu5PNj3rr2emKXUaSA6X+soiXYdvApNYA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-PTS0GTF\Vipul H Vaishnav" issuerKeyHash="a4a041cb75fd7f5898ff21d96c8ffdb98e8727f5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>boZioQMAbcgS3QFNRUL8iZVDNZTWkumdBCA2nKQBnkg=</DigestValue></Reference></SignedInfo><SignatureValue>AH+xcH5cEX3wzXUSidKqIEVlnCsQ1My/rOAGJMNs/afKPsB4GvkRmW36YbqCEUbj7M4rb+sLOcz6DtuAXM7SHDwE5rb+LqkwBXDFuvb+X+qBDLSdEFEfSoSAHmUWEbZZ11h8EjNcWMEODBOxeiRxNyzfYovohpwkaezdQ9ZUcCE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t288IRbRWylTSbf+1WaVxFNXZxPNCF/WhhlSpwhmDJjvluY8UtV8io8NvAIShKQ25PK/df7EKVAmQ4UO8t7gIvUH4z2ZzQeda8jLRooFll77VKVgFsSyMwd0r70gui6RsOyV2oyReRtomcSscakIWMuAKtKh7vgTuaxp8vI/BLE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="489e01a49c3620049de992d69435439589fc42454d01dd12c86d0003a162866e" Description="" Url=""><as:assemblyIdentity name="Mkt Calculation.exe" version="1.0.0.1" publicKeyToken="68e22cd417fee589" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PTS0GTF\Vipul H Vaishnav</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qSKkiTwInodb5KfzxJEVysRXYdZvvvkGr9qnrQdoOK4=</DigestValue></Reference></SignedInfo><SignatureValue>KiE+I204XsWQNgqtoNCYsQVl63xz52HO2EHV9FwaU35YTLHzJl7t7UaCJ+WqXUTNyd6cStN2JAAAH8sQIZBVi+5qJNtlQ/4pvhOAbDu2Qe6c0tikv5zVRLrPKRWgretpUaJ3lrBmF6e3BifkWhJYHDqzGn68ADoZq8IJng5KzmQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t288IRbRWylTSbf+1WaVxFNXZxPNCF/WhhlSpwhmDJjvluY8UtV8io8NvAIShKQ25PK/df7EKVAmQ4UO8t7gIvUH4z2ZzQeda8jLRooFll77VKVgFsSyMwd0r70gui6RsOyV2oyReRtomcSscakIWMuAKtKh7vgTuaxp8vI/BLE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICGTCCAYKgAwIBAgIQfZSlSZwnW7dFMZFyLfTvnDANBgkqhkiG9w0BAQsFADBLMUkwRwYDVQQDHkAARABFAFMASwBUAE8AUAAtAFAAVABTADAARwBUAEYAXABWAGkAcAB1AGwAIABIACAAVgBhAGkAcwBoAG4AYQB2MB4XDTIyMTAxNDA5MzMyMFoXDTIzMTAxNDE1MzMyMFowSzFJMEcGA1UEAx5AAEQARQBTAEsAVABPAFAALQBQAFQAUwAwAEcAVABGAFwAVgBpAHAAdQBsACAASAAgAFYAYQBpAHMAaABuAGEAdjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAt288IRbRWylTSbf+1WaVxFNXZxPNCF/WhhlSpwhmDJjvluY8UtV8io8NvAIShKQ25PK/df7EKVAmQ4UO8t7gIvUH4z2ZzQeda8jLRooFll77VKVgFsSyMwd0r70gui6RsOyV2oyReRtomcSscakIWMuAKtKh7vgTuaxp8vI/BLECAwEAATANBgkqhkiG9w0BAQsFAAOBgQA4zzmql5+JhfyvegqsencuxXA108N+Wa6c1b3kFolPZJFKTaykXhKxIlRtJhDwYoXgDvbkC31hfdKZjqDX6e4FGYGDbxyxVltfk+OcOJH1UtxdDu7WVFBAouxbpmBw4O864Sv7Xw5cWJl+suRbrVwZuufPawmggo75/6/sSwOtaw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
